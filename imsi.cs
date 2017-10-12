@@ -16,7 +16,7 @@ git checkout [branch name] // switch to branch
 git merge [branch name] // merge to master branch
 git pull // update local repository of current checkout branch from remote repository
 
-1. 프로그래밍 언어 및 도구
+1. 개발 언어 및 도구
 	1.1 예스트레이더	
 	1.2 예스랭귀지
 		코드 보안
@@ -49,19 +49,36 @@ git pull // update local repository of current checkout branch from remote repos
 		변수 최적화
 		필터 개발
 	2.5 포트폴리오 최적화
+		최적화의 관점
+			리스크 고정 수익률 최대화
+			수익률 고정 리스크 최소화
+			수익률/리스크 비율 최대화
 		Efficient Frontier
 		전략 성과 데이터 수집
 		전략 성과 데이터 구성
 		엑셀 해찾기 (Excel Solver)
-		
+	2.6 포트폴리오 리밸런싱
+		시점 기준 리밸런싱
+		임계치 기준 리밸런싱
+		복합 리밸런싱
 3. 선물 트레이딩 시스템
-	2.1 진입 및 청산 설계 원칙
-	2.2 시스템 카테고리
-	2.3 가격 기반 시스템
-	2.4 호가 기반 시스템
-	2.5 거래 기반 시스템
-	2.6 참조 기반 시스템
-	
+	3.1 개발 방식
+		Top-Down vs. Bottom-Up
+		진입 및 청산 설계 원칙
+	3.2 시스템 유형
+		추세추종
+		역추세
+		비추세
+	3.3 데이터별 시스템
+		가격 기반 시스템
+		호가 기반 시스템
+		거래 기반 시스템
+		참조 기반 시스템
+	3.4 실전 시스템
+		추세추종 (가격 기반)
+		역추세 (호가 기반)
+		비추세 (참조 기반)
+
 4. 선물 트레이딩 시그널을 이용한 옵션 매매
 	4.1 예스스팟 기반
 	4.2 API 기반	
