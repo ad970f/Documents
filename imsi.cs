@@ -1,8 +1,7 @@
-1. MS EA 계약 담당자 변경
-2. 통합모니터링 시스템 검수 여부
-3. NES-PDF 라이선스 증서 인계
-4. 노트북 1대, MS-Suffice 1대 인계
-5. 인천 POE 스위치 및 AP 장비 교체필요 인지
+
+
+
+
 
 git config --global user.name "Your Name Here"
 git config --global user.email "your_email@youremail.com"
@@ -21,17 +20,23 @@ git merge [branch name] // merge to master branch
 git pull // update local repository of current checkout branch from remote repository
 
 
-1. 개발 언어 및 도구
-	1.1 예스트레이더	
+1. 도구 및 언어
+	1.1 예스트레이더
 	1.2 예스랭귀지
-		코드 보안
-		표준 코딩 템플릿
-		코딩 권고 사항
+		Easy Language
 	1.3 예스스팟
-	1.4 Visaul Studio 
-	1.5 C#
-	1.6 MS-SQL
+		자바스크립트
+	1.4 코드 보안	
+	1.5 코딩 권고 사항		
+		For 루프 사용 자제
+		사용자 함수 사용 자제
+		
+	1.6 표준 코딩 템플릿	
 	1.7 엑셀
+	1.8 Visaul Studio / C#
+	1.9 MS-SQL
+	1.10 R
+	1.11 Python
 	
 2. 시뮬레이션
 	2.1 기초통계
@@ -50,6 +55,7 @@ git pull // update local repository of current checkout branch from remote repos
 		연평균수익률 
 		보상비율	
 		샤프레이쇼
+		* 손익분기차트
 	2.3 타임프레임
 		고정시간
 		가변시간
@@ -74,6 +80,9 @@ git pull // update local repository of current checkout branch from remote repos
 	3.1 개발 방식
 		Top-Down vs. Bottom-Up
 		진입 및 청산 설계 원칙
+			돌파 vs. 되돌림
+			대칭 청산 vs. 리버스
+			시간 제한 및 마감 청산
 	3.2 시스템 유형 I
 		추세추종
 		역추세
